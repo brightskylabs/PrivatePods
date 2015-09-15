@@ -14,8 +14,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '8.0'
   spec.dependency 'AFNetworking'
   spec.dependency 'Reachability'
-  spec.dependency 'AWSiOSSDKv2/S3'
-  spec.dependency 'FileMD5Hash'
+  spec.dependency 'AWSiOSSDKv2/S3', '2.2.5'
+  spec.dependency 'FileMD5Hash', '2.0.0'
   spec.dependency 'Firebase', '2.3.2'
   spec.xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Firebase"',
