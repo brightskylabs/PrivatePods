@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
       "Wil Gieseler" => "wil@wilgieseler.com",
       "Greg Cotten" => "greg@gregcotten.com"
   }
-  s.source       = { :git => "https://github.com/brightskylabs/CocoaLUT.git", :commit => "7d4b74eb1acaa8babf09a4f94a9b82cb2e785a84" }
+  s.source       = { :git => "https://github.com/brightskylabs/CocoaLUT.git", :commit => "v1.0" }
   s.platform     = :ios, '7.0'
   
   s.resource_bundles = {
