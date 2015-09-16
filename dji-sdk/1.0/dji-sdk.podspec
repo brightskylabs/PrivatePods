@@ -8,6 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/brightskylabs/dji-sdk.git', :commit => 'a27f5b8b7b8eb6f2899bca0f6d86fb796e8ddf69' }
   spec.public_header_files = 'DJI-SDK-iOS-LV1-V1.0/Lib/DJISDK.framework/Headers/*.h'
   spec.preserve_paths = 'DJI-SDK-iOS-LV1-V1.0/Lib/**'
+  spec.frameworks = 'DJISDK'
   spec.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/DJI-SDK-iOS-LV1-V1.0/Lib/DJISDK.framework"' }
   spec.requires_arc = true
   spec.platform = :ios, '8.0'
