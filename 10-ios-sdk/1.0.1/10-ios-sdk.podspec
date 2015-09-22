@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'An Objective-C client for 10 API'
   spec.homepage     = 'https://brightsky.co'
   spec.author       = 'Brightsky Labs'
-  spec.source       = { :git => 'https://github.com/brightskylabs/10-ios-sdk.git', :commit => 'b02483c00c42c0ad0245bccafee721027016ce11' }
+  spec.source       = { :git => 'https://github.com/brightskylabs/10-ios-sdk.git', :tag => 'v1.0.1' }
   spec.source_files = 'SKYAPI.h', 'Clients/*', 'Models/*', 'Requests/*'
   spec.requires_arc = true
   spec.platform     = :ios, '8.0'
