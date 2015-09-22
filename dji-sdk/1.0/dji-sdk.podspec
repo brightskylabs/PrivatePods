@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/dji-sdk/DJI-SDK-iOS-LV1-V1.0/Lib/DJISDK.framework"' }
   spec.requires_arc = true
   spec.platform = :ios, '8.0'
-  spec.dependency 'kxmovie', '~> 1.0'
+  spec.dependency 'kxmovie', '>= 1.0'
 end
