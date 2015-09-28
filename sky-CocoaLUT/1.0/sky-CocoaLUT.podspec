@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
       "Wil Gieseler" => "wil@wilgieseler.com",
       "Greg Cotten" => "greg@gregcotten.com"
   }
-  s.source       = { :git => "https://github.com/brightskylabs/CocoaLUT.git", :commit => "v1.0" }
+  s.source       = { :git => "git@github.com:brightskylabs/CocoaLUT.git", :commit => "v1.0" }
   s.platform     = :ios, '7.0'
-  
+
   s.resource_bundles = {
     "TransferFunctionLUTs" => "Assets/TransferFunctionLUTs/*.cube",
     "ManufacturerLUTs" => "Assets/ManufacturerLUTs/*.cube"
