@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'SKYAPI.h', 'Clients/*', 'Models/*', 'Requests/*'
   spec.requires_arc = true
   spec.platform     = :ios, '8.0'
+  spec.framework = 'Firebase'
   spec.dependency 'AFNetworking'
   spec.dependency 'Reachability'
   spec.dependency 'AWSiOSSDKv2/S3', '2.2.6'
