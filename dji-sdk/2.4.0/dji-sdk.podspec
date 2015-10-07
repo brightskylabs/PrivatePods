@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'DJI SDK'
   spec.homepage     = 'http://www.dji.com'
   spec.author       = 'DJI'
-  spec.source       = { :git => 'git@github.com:brightskylabs/dji-sdk.git', :commit => '0b89a51918ade1eed33d2ca4f964e35422c12018' }
+  spec.source       = { :git => 'git@github.com:brightskylabs/dji-sdk.git', :commit => 'v2.4.0' }
   spec.source_files = 'DJI/VideoPreviewer/*.{h,m}', 'DJI/VideoPreviewer/DJIH264Decoder/include/*'
   spec.public_header_files = 'DJI/Lib/DJISDK.framework/Headers/*.h', 'DJI/VideoPreviewer/DJIH264Decoder/include/*'
   spec.preserve_paths = 'DJI/**'
