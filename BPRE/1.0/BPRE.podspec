@@ -8,7 +8,7 @@ LICENSE
 spec.summary      = 'Best Parts Recognition Engine'
 spec.homepage     = 'https://brightsky.co'
 spec.author       = 'Brightsky Labs'
-spec.source       = { :git => 'git@github.com:brightskylabs/BPRE.git', :commit => '11a7565d76a9c46470f286fc041c36d4ae2aadd0' }
+spec.source       = { :git => 'git@github.com:brightskylabs/BPRE.git', :tag => 'v1.0'}
 spec.source_files = 'SKYBestPartsRecEngine.h', 'FeatureDetection/*', 'FeatureDetection/FaceDetection/*', 'FeatureDetection/FaceDetection/haarcascades/*', 'FeatureDetection/Motion/*', 'FeatureDetection/Loudness/*', 'EventAnalyzers/*', 'BestParts/*', 'AssetReader/*', 'AssetReader/Video/*', 'AssetReader/Frame/*', 'AssetReader/Frame/Filters/*'
 spec.requires_arc = true
 spec.platform     = :ios, '8.0'
